@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>아이유 타임라인</title>
+	<meta name="description" content="IU Timeline">
+	<meta name="author" content="Crux">
+
+	<link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+
+	<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div id="timeline" style="width: 100%; height: 800px"></div>
+
+	<script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+	<script type="text/javascript">
+		"use strict";
+		var options = {
+			timenav_height_percentage: 50
+		};
+		var timeline = new TL.Timeline('timeline', 'https://docs.google.com/spreadsheets/d/1gaV6-bvpIFSjo_LwbjiJp1cT9T_I74ycZKsKGlPc2SQ/pubhtml', options);
+	</script>
+</body>
+</html>
